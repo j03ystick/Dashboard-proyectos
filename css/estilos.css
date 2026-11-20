@@ -153,14 +153,17 @@ main { max-width: 1280px; margin: 0 auto; padding: 24px; }
 /* ---------- Alertas ---------- */
 .alertas { list-style: none; margin: 0; padding: 0; }
 .alertas li {
-  display: grid; grid-template-columns: 22px 1fr auto; gap: 10px; align-items: start;
+  display: grid; grid-template-columns: 36px 1fr auto; gap: 12px; align-items: center;
   padding: 10px 4px; border-bottom: 1px solid var(--borde);
 }
 .alertas li:last-child { border-bottom: 0; }
-.alertas .ico { font-size: 14px; line-height: 1.4; text-align: center; }
+.alertas .ico {
+  display: grid; place-items: center; width: 36px; height: 36px; border-radius: 50%;
+  font-size: 20px; line-height: 1; background: color-mix(in srgb, currentColor 14%, transparent);
+}
 .alertas .critica .ico { color: var(--rojo); }
 .alertas .alta .ico { color: var(--naranja); }
-.alertas .media .ico { color: var(--amarillo-texto); }
+.alertas .media .ico { color: var(--amarillo); }
 .alertas .titulo { font-weight: 550; }
 .alertas .desc { color: var(--tinta-2); font-size: 12.5px; }
 .vacio { color: var(--tinta-2); padding: 18px 4px; text-align: center; }
