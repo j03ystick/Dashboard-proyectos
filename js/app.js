@@ -3,7 +3,7 @@
 // =========================================================
 import {
   analizarProyecto, fecha, hoyLocal, formatoFecha, mesCorto, moneda, monedaCorta, pct, fijarMoneda, dias,
-} from "./calculos.js";
+} from "./calculos.js?v=3";
 
 const UMBRALES_BASE = {
   tarea_desviacion_amarillo: 10, tarea_desviacion_rojo: 25, tarea_dias_por_vencer: 5,

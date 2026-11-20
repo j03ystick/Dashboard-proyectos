@@ -62,6 +62,12 @@ plantillas/              Plantillas de Excel
 scripts/excel.py         Conversión Excel ⇄ JSON
 ```
 
+### Al cambiar el diseño o el código
+
+GitHub Pages guarda en caché del navegador los archivos CSS y JS hasta 10 minutos. Para que los cambios
+se vean de inmediato, sube el número de versión `?v=` en `index.html` (en `estilos.css` y `app.js`) y en
+la línea `import ... from "./calculos.js?v=..."` de `js/app.js`. Los datos JSON siempre se leen frescos.
+
 ## Cómo agregar o actualizar un proyecto
 
 ### Opción A: con Excel (recomendado)
