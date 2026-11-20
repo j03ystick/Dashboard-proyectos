@@ -1,0 +1,350 @@
+{
+  "id": "PRY-2026-002",
+  "nombre": "Remodelación de oficinas corporativas piso 4",
+  "cliente": "Corporativo Centro",
+  "ubicacion": "Guadalajara, Jal.",
+  "responsable": "Joe",
+  "estado": "en_curso",
+  "prioridad": "media",
+  "fecha_inicio": "2026-07-13",
+  "fecha_fin": "2026-12-18",
+  "moneda": "MXN",
+  "descripcion": "Remodelación integral de 1,200 m² de oficinas: demolición, instalaciones, acabados, mobiliario y red de voz y datos.",
+  "etapas": [
+    {
+      "id": "E1",
+      "nombre": "Demolición",
+      "fecha_inicio": "2026-07-13",
+      "fecha_fin": "2026-08-07"
+    },
+    {
+      "id": "E2",
+      "nombre": "Instalaciones",
+      "fecha_inicio": "2026-08-10",
+      "fecha_fin": "2026-10-16"
+    },
+    {
+      "id": "E3",
+      "nombre": "Acabados",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-11-27"
+    },
+    {
+      "id": "E4",
+      "nombre": "Mobiliario y entrega",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2026-12-18"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "T01",
+      "etapa": "E1",
+      "nombre": "Retiro de plafones y muros",
+      "responsable": "Arq. Paola Ríos",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-07-13",
+      "fecha_fin": "2026-08-07",
+      "fecha_fin_real": "2026-08-12",
+      "avance": 100,
+      "horas_plan": 360,
+      "horas_real": 410
+    },
+    {
+      "id": "T02",
+      "etapa": "E2",
+      "nombre": "Instalación eléctrica y alumbrado",
+      "responsable": "Ing. Tomás Vidal",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2026-08-10",
+      "fecha_fin": "2026-10-02",
+      "fecha_fin_real": "2026-10-14",
+      "avance": 100,
+      "horas_plan": 520,
+      "horas_real": 610
+    },
+    {
+      "id": "T03",
+      "etapa": "E2",
+      "nombre": "Aire acondicionado (ductería)",
+      "responsable": "Ing. Tomás Vidal",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2026-08-24",
+      "fecha_fin": "2026-10-16",
+      "fecha_fin_real": null,
+      "avance": 85,
+      "horas_plan": 440,
+      "horas_real": 470
+    },
+    {
+      "id": "T04",
+      "etapa": "E2",
+      "nombre": "Red de voz y datos",
+      "responsable": "Ing. Tomás Vidal",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2026-09-14",
+      "fecha_fin": "2026-10-16",
+      "fecha_fin_real": null,
+      "avance": 60,
+      "horas_plan": 200,
+      "horas_real": 150
+    },
+    {
+      "id": "T05",
+      "etapa": "E3",
+      "nombre": "Muros de tablaroca y plafón",
+      "responsable": "Arq. Paola Ríos",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-11-06",
+      "fecha_fin_real": null,
+      "avance": 70,
+      "horas_plan": 400,
+      "horas_real": 330
+    },
+    {
+      "id": "T06",
+      "etapa": "E3",
+      "nombre": "Pisos y pintura",
+      "responsable": "Arq. Paola Ríos",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-27",
+      "fecha_fin_real": null,
+      "avance": 15,
+      "horas_plan": 360,
+      "horas_real": 60
+    },
+    {
+      "id": "T07",
+      "etapa": "E4",
+      "nombre": "Instalación de mobiliario",
+      "responsable": "Arq. Paola Ríos",
+      "cuadrilla": null,
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2026-12-11",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 160,
+      "horas_real": 0
+    },
+    {
+      "id": "T08",
+      "etapa": "E4",
+      "nombre": "Limpieza fina y entrega",
+      "responsable": "Joe",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-12-14",
+      "fecha_fin": "2026-12-18",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 60,
+      "horas_real": 0
+    }
+  ],
+  "cuadrillas": [
+    {
+      "id": "C1",
+      "nombre": "Cuadrilla Acabados",
+      "especialidad": "Albañilería y acabados",
+      "lider": "Gerardo Núñez",
+      "telefono": "33 0000 0011",
+      "integrantes": [
+        {
+          "nombre": "Gerardo Núñez",
+          "rol": "Cabo"
+        },
+        {
+          "nombre": "Mario Silva",
+          "rol": "Tablaroquero"
+        },
+        {
+          "nombre": "Alberto Reyes",
+          "rol": "Pintor"
+        },
+        {
+          "nombre": "Juan Mora",
+          "rol": "Ayudante"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "nombre": "Cuadrilla Instalaciones",
+      "especialidad": "Eléctrica y HVAC",
+      "lider": "Rubén Castillo",
+      "telefono": "33 0000 0012",
+      "integrantes": [
+        {
+          "nombre": "Rubén Castillo",
+          "rol": "Supervisor"
+        },
+        {
+          "nombre": "Alan Torres",
+          "rol": "Electricista"
+        },
+        {
+          "nombre": "Samuel Ibarra",
+          "rol": "Técnico HVAC"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "nombre": "Cuadrilla Telecom",
+      "especialidad": "Cableado estructurado",
+      "lider": "Diana Herrera",
+      "telefono": "33 0000 0013",
+      "integrantes": [
+        {
+          "nombre": "Diana Herrera",
+          "rol": "Líder técnico"
+        },
+        {
+          "nombre": "Kevin Ponce",
+          "rol": "Técnico"
+        }
+      ]
+    }
+  ],
+  "planes_trabajo": [
+    {
+      "id": "PT-47",
+      "titulo": "Plan de recuperación semana 47",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2026-11-21",
+      "objetivos": [
+        "Cerrar ductería de aire acondicionado",
+        "Recuperar atraso en red de datos con turno extra"
+      ],
+      "actividades": [
+        {
+          "fecha": "2026-11-17",
+          "descripcion": "Pruebas de flujo en ductería zona B",
+          "tarea": "T03",
+          "cuadrilla": "C2",
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-18",
+          "descripcion": "Turno extra cableado zona A",
+          "tarea": "T04",
+          "cuadrilla": "C3",
+          "completada": false
+        },
+        {
+          "fecha": "2026-11-20",
+          "descripcion": "Cierre de plafón sala de juntas",
+          "tarea": "T05",
+          "cuadrilla": "C1",
+          "completada": false
+        }
+      ]
+    }
+  ],
+  "presupuesto": {
+    "partidas": [
+      {
+        "id": "P01",
+        "concepto": "Demolición y retiro de escombro",
+        "categoria": "Mano de obra",
+        "etapa": "E1",
+        "planeado": 180000,
+        "comprometido": 195000,
+        "ejercido": 195000
+      },
+      {
+        "id": "P02",
+        "concepto": "Instalación eléctrica",
+        "categoria": "Materiales",
+        "etapa": "E2",
+        "planeado": 420000,
+        "comprometido": 468000,
+        "ejercido": 468000
+      },
+      {
+        "id": "P03",
+        "concepto": "Aire acondicionado",
+        "categoria": "Equipos",
+        "etapa": "E2",
+        "planeado": 650000,
+        "comprometido": 690000,
+        "ejercido": 610000
+      },
+      {
+        "id": "P04",
+        "concepto": "Voz y datos",
+        "categoria": "Materiales",
+        "etapa": "E2",
+        "planeado": 230000,
+        "comprometido": 230000,
+        "ejercido": 160000
+      },
+      {
+        "id": "P05",
+        "concepto": "Acabados",
+        "categoria": "Materiales",
+        "etapa": "E3",
+        "planeado": 540000,
+        "comprometido": 410000,
+        "ejercido": 300000
+      },
+      {
+        "id": "P06",
+        "concepto": "Mobiliario",
+        "categoria": "Equipos",
+        "etapa": "E4",
+        "planeado": 780000,
+        "comprometido": 780000,
+        "ejercido": 390000
+      },
+      {
+        "id": "P07",
+        "concepto": "Imprevistos",
+        "categoria": "Contingencia",
+        "etapa": null,
+        "planeado": 120000,
+        "comprometido": 85000,
+        "ejercido": 85000
+      }
+    ]
+  },
+  "documentos": [
+    {
+      "id": "D01",
+      "nombre": "Orden de compra",
+      "tipo": "Contrato",
+      "etapa": "E1",
+      "fecha": "2026-07-01",
+      "url": "documentos/PRY-2026-002/orden-compra.pdf"
+    },
+    {
+      "id": "D02",
+      "nombre": "Layout aprobado",
+      "tipo": "Plano",
+      "etapa": "E1",
+      "fecha": "2026-07-08",
+      "url": "documentos/PRY-2026-002/layout.pdf"
+    },
+    {
+      "id": "D03",
+      "nombre": "Minuta de reunión de atraso",
+      "tipo": "Minuta",
+      "etapa": "E3",
+      "fecha": "2026-11-10",
+      "url": "documentos/PRY-2026-002/minuta-2026-11-10.pdf"
+    }
+  ],
+  "bitacora": [
+    {
+      "fecha": "2026-10-14",
+      "autor": "Ing. Tomás Vidal",
+      "nota": "Retraso en suministro de cable por proveedor; eléctrica cerrada 12 días tarde."
+    },
+    {
+      "fecha": "2026-11-10",
+      "autor": "Joe",
+      "nota": "Se acuerda plan de recuperación con turnos extra en telecom y acabados."
+    }
+  ]
+}

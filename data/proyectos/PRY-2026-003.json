@@ -1,0 +1,311 @@
+{
+  "id": "PRY-2026-003",
+  "nombre": "Red de fibra óptica Parque Industrial Sur",
+  "cliente": "Parque Industrial Sur",
+  "ubicacion": "Querétaro, Qro.",
+  "responsable": "Joe",
+  "estado": "en_curso",
+  "prioridad": "media",
+  "fecha_inicio": "2026-10-19",
+  "fecha_fin": "2027-04-30",
+  "moneda": "MXN",
+  "descripcion": "Despliegue de 14 km de fibra óptica subterránea para 22 naves industriales, con cuarto de telecomunicaciones central.",
+  "etapas": [
+    {
+      "id": "E1",
+      "nombre": "Diseño de red",
+      "fecha_inicio": "2026-10-19",
+      "fecha_fin": "2026-11-20"
+    },
+    {
+      "id": "E2",
+      "nombre": "Canalización",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2027-02-12"
+    },
+    {
+      "id": "E3",
+      "nombre": "Tendido y fusiones",
+      "fecha_inicio": "2027-01-18",
+      "fecha_fin": "2027-04-02"
+    },
+    {
+      "id": "E4",
+      "nombre": "Certificación y entrega",
+      "fecha_inicio": "2027-04-05",
+      "fecha_fin": "2027-04-30"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "T01",
+      "etapa": "E1",
+      "nombre": "Levantamiento de rutas",
+      "responsable": "Ing. Marco Aguilar",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-10-19",
+      "fecha_fin": "2026-10-30",
+      "fecha_fin_real": "2026-10-30",
+      "avance": 100,
+      "horas_plan": 80,
+      "horas_real": 84
+    },
+    {
+      "id": "T02",
+      "etapa": "E1",
+      "nombre": "Diseño de red y memoria técnica",
+      "responsable": "Ing. Marco Aguilar",
+      "cuadrilla": null,
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-11-20",
+      "fecha_fin_real": null,
+      "avance": 80,
+      "horas_plan": 120,
+      "horas_real": 104
+    },
+    {
+      "id": "T03",
+      "etapa": "E1",
+      "nombre": "Permisos de excavación en vialidades",
+      "responsable": "Lic. Andrés Ruiz",
+      "cuadrilla": null,
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-11-24",
+      "fecha_fin_real": null,
+      "avance": 50,
+      "horas_plan": 40,
+      "horas_real": 28
+    },
+    {
+      "id": "T04",
+      "etapa": "E2",
+      "nombre": "Zanjeo y ductería tramo 1 (km 0-5)",
+      "responsable": "Ing. Marco Aguilar",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2026-12-18",
+      "fecha_fin_real": null,
+      "avance": 5,
+      "horas_plan": 480,
+      "horas_real": 40
+    },
+    {
+      "id": "T05",
+      "etapa": "E2",
+      "nombre": "Zanjeo y ductería tramo 2 (km 5-14)",
+      "responsable": "Ing. Marco Aguilar",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2027-01-04",
+      "fecha_fin": "2027-02-12",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 720,
+      "horas_real": 0
+    },
+    {
+      "id": "T06",
+      "etapa": "E3",
+      "nombre": "Tendido de fibra",
+      "responsable": "Ing. Nadia Fuentes",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2027-01-18",
+      "fecha_fin": "2027-03-12",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 600,
+      "horas_real": 0
+    },
+    {
+      "id": "T07",
+      "etapa": "E3",
+      "nombre": "Fusiones y equipamiento de cuarto de telecom",
+      "responsable": "Ing. Nadia Fuentes",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2027-03-01",
+      "fecha_fin": "2027-04-02",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 320,
+      "horas_real": 0
+    },
+    {
+      "id": "T08",
+      "etapa": "E4",
+      "nombre": "Certificación OTDR y entrega",
+      "responsable": "Joe",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2027-04-05",
+      "fecha_fin": "2027-04-30",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 160,
+      "horas_real": 0
+    }
+  ],
+  "cuadrillas": [
+    {
+      "id": "C1",
+      "nombre": "Cuadrilla Obra Civil Telecom",
+      "especialidad": "Zanjeo y ductería",
+      "lider": "Saúl Medina",
+      "telefono": "442 000 0021",
+      "integrantes": [
+        {
+          "nombre": "Saúl Medina",
+          "rol": "Cabo"
+        },
+        {
+          "nombre": "Arturo Vega",
+          "rol": "Operador de zanjadora"
+        },
+        {
+          "nombre": "Efraín Rojas",
+          "rol": "Ayudante"
+        },
+        {
+          "nombre": "Noé Campos",
+          "rol": "Ayudante"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "nombre": "Cuadrilla Fibra Óptica",
+      "especialidad": "Tendido y fusiones",
+      "lider": "Nadia Fuentes",
+      "telefono": "442 000 0022",
+      "integrantes": [
+        {
+          "nombre": "Nadia Fuentes",
+          "rol": "Líder técnico"
+        },
+        {
+          "nombre": "Brenda Solís",
+          "rol": "Fusionista"
+        },
+        {
+          "nombre": "Jorge Peña",
+          "rol": "Técnico"
+        }
+      ]
+    }
+  ],
+  "planes_trabajo": [
+    {
+      "id": "PT-47",
+      "titulo": "Plan semana 47",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2026-11-21",
+      "objetivos": [
+        "Liberar memoria técnica para revisión del cliente",
+        "Iniciar zanjeo en tramo con permiso"
+      ],
+      "actividades": [
+        {
+          "fecha": "2026-11-17",
+          "descripcion": "Revisión de memoria técnica con cliente",
+          "tarea": "T02",
+          "cuadrilla": null,
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-19",
+          "descripcion": "Inicio de zanjeo en vialidad interna",
+          "tarea": "T04",
+          "cuadrilla": "C1",
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-20",
+          "descripcion": "Seguimiento a permiso municipal",
+          "tarea": "T03",
+          "cuadrilla": null,
+          "completada": false
+        }
+      ]
+    }
+  ],
+  "presupuesto": {
+    "partidas": [
+      {
+        "id": "P01",
+        "concepto": "Diseño y permisos",
+        "categoria": "Servicios",
+        "etapa": "E1",
+        "planeado": 210000,
+        "comprometido": 230000,
+        "ejercido": 196000
+      },
+      {
+        "id": "P02",
+        "concepto": "Obra civil y ductería",
+        "categoria": "Mano de obra",
+        "etapa": "E2",
+        "planeado": 1650000,
+        "comprometido": 1650000,
+        "ejercido": 420000
+      },
+      {
+        "id": "P03",
+        "concepto": "Fibra óptica y accesorios",
+        "categoria": "Materiales",
+        "etapa": "E3",
+        "planeado": 980000,
+        "comprometido": 980000,
+        "ejercido": 0
+      },
+      {
+        "id": "P04",
+        "concepto": "Equipamiento cuarto de telecom",
+        "categoria": "Equipos",
+        "etapa": "E3",
+        "planeado": 760000,
+        "comprometido": 0,
+        "ejercido": 0
+      },
+      {
+        "id": "P05",
+        "concepto": "Certificación",
+        "categoria": "Servicios",
+        "etapa": "E4",
+        "planeado": 140000,
+        "comprometido": 0,
+        "ejercido": 0
+      },
+      {
+        "id": "P06",
+        "concepto": "Imprevistos",
+        "categoria": "Contingencia",
+        "etapa": null,
+        "planeado": 180000,
+        "comprometido": 0,
+        "ejercido": 0
+      }
+    ]
+  },
+  "documentos": [
+    {
+      "id": "D01",
+      "nombre": "Propuesta técnica-económica",
+      "tipo": "Contrato",
+      "etapa": "E1",
+      "fecha": "2026-10-12",
+      "url": "documentos/PRY-2026-003/propuesta.pdf"
+    },
+    {
+      "id": "D02",
+      "nombre": "Rutas levantadas (KMZ)",
+      "tipo": "Plano",
+      "etapa": "E1",
+      "fecha": "2026-10-30",
+      "url": "documentos/PRY-2026-003/rutas.kmz"
+    }
+  ],
+  "bitacora": [
+    {
+      "fecha": "2026-11-19",
+      "autor": "Saúl Medina",
+      "nota": "Se pagó anticipo a zanjadora antes de tener permiso completo; solo se puede trabajar en vialidad interna."
+    }
+  ]
+}

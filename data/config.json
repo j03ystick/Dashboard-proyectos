@@ -1,0 +1,20 @@
+{
+  "titulo": "Seguimiento de proyectos",
+  "responsable": "Joe",
+  "moneda": "MXN",
+  "fecha_corte": null,
+  "proyectos": [
+    "data/proyectos/PRY-2026-001.json",
+    "data/proyectos/PRY-2026-002.json",
+    "data/proyectos/PRY-2026-003.json"
+  ],
+  "umbrales": {
+    "tarea_desviacion_amarillo": 10,
+    "tarea_desviacion_rojo": 25,
+    "tarea_dias_por_vencer": 5,
+    "proyecto_desviacion_amarillo": 5,
+    "proyecto_desviacion_rojo": 15,
+    "presupuesto_desviacion_amarillo": 5,
+    "presupuesto_desviacion_rojo": 15
+  }
+}

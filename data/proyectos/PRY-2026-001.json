@@ -1,0 +1,458 @@
+{
+  "id": "PRY-2026-001",
+  "nombre": "Ampliación de subestación eléctrica Norte",
+  "cliente": "Planta Industrial Norte",
+  "ubicacion": "Monterrey, N.L.",
+  "responsable": "Joe",
+  "estado": "en_curso",
+  "prioridad": "alta",
+  "fecha_inicio": "2026-09-01",
+  "fecha_fin": "2027-02-26",
+  "moneda": "MXN",
+  "descripcion": "Ampliación de la subestación de 13.8 kV con un nuevo transformador de 5 MVA, tableros de media tensión y obra civil asociada.",
+  "etapas": [
+    {
+      "id": "E1",
+      "nombre": "Ingeniería y permisos",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-10-09"
+    },
+    {
+      "id": "E2",
+      "nombre": "Obra civil",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-12-11"
+    },
+    {
+      "id": "E3",
+      "nombre": "Montaje electromecánico",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2027-02-05"
+    },
+    {
+      "id": "E4",
+      "nombre": "Pruebas y puesta en marcha",
+      "fecha_inicio": "2027-02-01",
+      "fecha_fin": "2027-02-26"
+    }
+  ],
+  "tareas": [
+    {
+      "id": "T01",
+      "etapa": "E1",
+      "nombre": "Levantamiento topográfico",
+      "responsable": "Ing. Laura Méndez",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-09-08",
+      "fecha_fin_real": "2026-09-07",
+      "avance": 100,
+      "horas_plan": 40,
+      "horas_real": 38
+    },
+    {
+      "id": "T02",
+      "etapa": "E1",
+      "nombre": "Ingeniería de detalle",
+      "responsable": "Ing. Laura Méndez",
+      "cuadrilla": null,
+      "fecha_inicio": "2026-09-07",
+      "fecha_fin": "2026-10-02",
+      "fecha_fin_real": "2026-10-02",
+      "avance": 100,
+      "horas_plan": 160,
+      "horas_real": 172
+    },
+    {
+      "id": "T03",
+      "etapa": "E1",
+      "nombre": "Permiso de construcción municipal",
+      "responsable": "Lic. Andrés Ruiz",
+      "cuadrilla": null,
+      "fecha_inicio": "2026-09-14",
+      "fecha_fin": "2026-10-09",
+      "fecha_fin_real": "2026-10-08",
+      "avance": 100,
+      "horas_plan": 24,
+      "horas_real": 30
+    },
+    {
+      "id": "T04",
+      "etapa": "E2",
+      "nombre": "Excavación y cimentación del transformador",
+      "responsable": "Ing. Carlos Treviño",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-30",
+      "fecha_fin_real": "2026-10-31",
+      "avance": 100,
+      "horas_plan": 320,
+      "horas_real": 336
+    },
+    {
+      "id": "T05",
+      "etapa": "E2",
+      "nombre": "Trincheras y ductos",
+      "responsable": "Ing. Carlos Treviño",
+      "cuadrilla": "C1",
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-11-27",
+      "fecha_fin_real": null,
+      "avance": 75,
+      "horas_plan": 280,
+      "horas_real": 210
+    },
+    {
+      "id": "T06",
+      "etapa": "E2",
+      "nombre": "Barda perimetral y malla de tierras",
+      "responsable": "Ing. Carlos Treviño",
+      "cuadrilla": "C2",
+      "fecha_inicio": "2026-11-09",
+      "fecha_fin": "2026-12-11",
+      "fecha_fin_real": null,
+      "avance": 30,
+      "horas_plan": 240,
+      "horas_real": 80
+    },
+    {
+      "id": "T07",
+      "etapa": "E3",
+      "nombre": "Recepción y montaje de transformador 5 MVA",
+      "responsable": "Ing. Sofía Garza",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2026-12-18",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 200,
+      "horas_real": 0
+    },
+    {
+      "id": "T08",
+      "etapa": "E3",
+      "nombre": "Instalación de tableros de media tensión",
+      "responsable": "Ing. Sofía Garza",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2027-01-04",
+      "fecha_fin": "2027-01-22",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 180,
+      "horas_real": 0
+    },
+    {
+      "id": "T09",
+      "etapa": "E3",
+      "nombre": "Cableado y conexiones",
+      "responsable": "Ing. Sofía Garza",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2027-01-18",
+      "fecha_fin": "2027-02-05",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 220,
+      "horas_real": 0
+    },
+    {
+      "id": "T10",
+      "etapa": "E4",
+      "nombre": "Pruebas eléctricas y protocolos",
+      "responsable": "Ing. Sofía Garza",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2027-02-01",
+      "fecha_fin": "2027-02-19",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 120,
+      "horas_real": 0
+    },
+    {
+      "id": "T11",
+      "etapa": "E4",
+      "nombre": "Energización y entrega",
+      "responsable": "Joe",
+      "cuadrilla": "C3",
+      "fecha_inicio": "2027-02-22",
+      "fecha_fin": "2027-02-26",
+      "fecha_fin_real": null,
+      "avance": 0,
+      "horas_plan": 40,
+      "horas_real": 0
+    }
+  ],
+  "cuadrillas": [
+    {
+      "id": "C1",
+      "nombre": "Cuadrilla Civil A",
+      "especialidad": "Obra civil",
+      "lider": "Martín Salazar",
+      "telefono": "81 0000 0001",
+      "integrantes": [
+        {
+          "nombre": "Martín Salazar",
+          "rol": "Cabo"
+        },
+        {
+          "nombre": "José Luna",
+          "rol": "Albañil"
+        },
+        {
+          "nombre": "Raúl Pérez",
+          "rol": "Albañil"
+        },
+        {
+          "nombre": "Iván Cruz",
+          "rol": "Ayudante"
+        },
+        {
+          "nombre": "Pedro Ortiz",
+          "rol": "Operador de retroexcavadora"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "nombre": "Cuadrilla Civil B",
+      "especialidad": "Topografía y acabados",
+      "lider": "Hugo Ramírez",
+      "telefono": "81 0000 0002",
+      "integrantes": [
+        {
+          "nombre": "Hugo Ramírez",
+          "rol": "Cabo"
+        },
+        {
+          "nombre": "Luis Flores",
+          "rol": "Topógrafo"
+        },
+        {
+          "nombre": "Ernesto Díaz",
+          "rol": "Ayudante"
+        }
+      ]
+    },
+    {
+      "id": "C3",
+      "nombre": "Cuadrilla Electromecánica",
+      "especialidad": "Media tensión",
+      "lider": "Ricardo Vela",
+      "telefono": "81 0000 0003",
+      "integrantes": [
+        {
+          "nombre": "Ricardo Vela",
+          "rol": "Supervisor eléctrico"
+        },
+        {
+          "nombre": "Daniel Soto",
+          "rol": "Electricista"
+        },
+        {
+          "nombre": "Óscar Lara",
+          "rol": "Electricista"
+        },
+        {
+          "nombre": "Fernando Gil",
+          "rol": "Técnico de pruebas"
+        }
+      ]
+    }
+  ],
+  "planes_trabajo": [
+    {
+      "id": "PT-47",
+      "titulo": "Plan semana 47",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2026-11-21",
+      "objetivos": [
+        "Llegar a 85% en trincheras y ductos",
+        "Arrancar colado de barda perimetral"
+      ],
+      "actividades": [
+        {
+          "fecha": "2026-11-16",
+          "descripcion": "Colocación de ductos tramo 3",
+          "tarea": "T05",
+          "cuadrilla": "C1",
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-18",
+          "descripcion": "Relleno y compactación tramo 2",
+          "tarea": "T05",
+          "cuadrilla": "C1",
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-19",
+          "descripcion": "Trazo de barda perimetral",
+          "tarea": "T06",
+          "cuadrilla": "C2",
+          "completada": true
+        },
+        {
+          "fecha": "2026-11-21",
+          "descripcion": "Colado de zapatas barda lado norte",
+          "tarea": "T06",
+          "cuadrilla": "C2",
+          "completada": false
+        }
+      ]
+    },
+    {
+      "id": "PT-48",
+      "titulo": "Plan semana 48",
+      "fecha_inicio": "2026-11-23",
+      "fecha_fin": "2026-11-28",
+      "objetivos": [
+        "Cerrar trincheras y ductos",
+        "Recibir transformador en sitio"
+      ],
+      "actividades": [
+        {
+          "fecha": "2026-11-23",
+          "descripcion": "Recepción de transformador y maniobra de descarga",
+          "tarea": "T07",
+          "cuadrilla": "C3",
+          "completada": false
+        },
+        {
+          "fecha": "2026-11-25",
+          "descripcion": "Último tramo de ductos y registros",
+          "tarea": "T05",
+          "cuadrilla": "C1",
+          "completada": false
+        },
+        {
+          "fecha": "2026-11-27",
+          "descripcion": "Malla de tierras sección A",
+          "tarea": "T06",
+          "cuadrilla": "C2",
+          "completada": false
+        }
+      ]
+    }
+  ],
+  "presupuesto": {
+    "partidas": [
+      {
+        "id": "P01",
+        "concepto": "Ingeniería y permisos",
+        "categoria": "Servicios",
+        "etapa": "E1",
+        "planeado": 380000,
+        "comprometido": 380000,
+        "ejercido": 372000
+      },
+      {
+        "id": "P02",
+        "concepto": "Materiales de obra civil",
+        "categoria": "Materiales",
+        "etapa": "E2",
+        "planeado": 920000,
+        "comprometido": 860000,
+        "ejercido": 640000
+      },
+      {
+        "id": "P03",
+        "concepto": "Mano de obra civil",
+        "categoria": "Mano de obra",
+        "etapa": "E2",
+        "planeado": 610000,
+        "comprometido": 610000,
+        "ejercido": 455000
+      },
+      {
+        "id": "P04",
+        "concepto": "Transformador 5 MVA",
+        "categoria": "Equipos",
+        "etapa": "E3",
+        "planeado": 2450000,
+        "comprometido": 2450000,
+        "ejercido": 1225000
+      },
+      {
+        "id": "P05",
+        "concepto": "Tableros de media tensión",
+        "categoria": "Equipos",
+        "etapa": "E3",
+        "planeado": 1180000,
+        "comprometido": 1180000,
+        "ejercido": 354000
+      },
+      {
+        "id": "P06",
+        "concepto": "Mano de obra electromecánica",
+        "categoria": "Mano de obra",
+        "etapa": "E3",
+        "planeado": 540000,
+        "comprometido": 0,
+        "ejercido": 0
+      },
+      {
+        "id": "P07",
+        "concepto": "Pruebas y puesta en marcha",
+        "categoria": "Servicios",
+        "etapa": "E4",
+        "planeado": 260000,
+        "comprometido": 0,
+        "ejercido": 0
+      },
+      {
+        "id": "P08",
+        "concepto": "Imprevistos",
+        "categoria": "Contingencia",
+        "etapa": null,
+        "planeado": 300000,
+        "comprometido": 0,
+        "ejercido": 0
+      }
+    ]
+  },
+  "documentos": [
+    {
+      "id": "D01",
+      "nombre": "Contrato firmado",
+      "tipo": "Contrato",
+      "etapa": "E1",
+      "fecha": "2026-08-25",
+      "url": "documentos/PRY-2026-001/contrato.pdf"
+    },
+    {
+      "id": "D02",
+      "nombre": "Planos de ingeniería de detalle rev. B",
+      "tipo": "Plano",
+      "etapa": "E1",
+      "fecha": "2026-10-02",
+      "url": "documentos/PRY-2026-001/planos-rev-b.pdf"
+    },
+    {
+      "id": "D03",
+      "nombre": "Licencia de construcción",
+      "tipo": "Permiso",
+      "etapa": "E1",
+      "fecha": "2026-10-08",
+      "url": "documentos/PRY-2026-001/licencia.pdf"
+    },
+    {
+      "id": "D04",
+      "nombre": "Reporte fotográfico semana 46",
+      "tipo": "Reporte",
+      "etapa": "E2",
+      "fecha": "2026-11-14",
+      "url": "documentos/PRY-2026-001/reporte-s46.pdf"
+    }
+  ],
+  "bitacora": [
+    {
+      "fecha": "2026-10-31",
+      "autor": "Ing. Carlos Treviño",
+      "nota": "Cimentación del transformador terminada con un día de retraso por lluvia."
+    },
+    {
+      "fecha": "2026-11-18",
+      "autor": "Joe",
+      "nota": "Proveedor confirma entrega del transformador el 23 de noviembre."
+    }
+  ]
+}
