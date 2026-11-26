@@ -271,3 +271,5 @@ tfoot td { font-weight: 650; border-top: 2px solid var(--eje); }
   .proyectos { grid-template-columns: 1fr; }
   .filtros input { min-width: 0; flex: 1; }
 }
+.btn-embudo { text-decoration: none; white-space: nowrap; }
+.btn-embudo:hover { text-decoration: none; }
